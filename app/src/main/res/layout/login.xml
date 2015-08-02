@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_marginTop="145dp"
+        android:hint="Digite seu email"
+        android:layout_weight="1" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_marginTop="445dp"
+        android:inputType="textPassword"
+        android:hint="*****"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:id="@+id/button"
+        android:layout_marginTop="38dp"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastra-se"
+        android:id="@+id/btncadastrar"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="cadastrar"
+        />
+
+</RelativeLayout>
